@@ -28,6 +28,12 @@
        "id": "a738f122-26a8-81ba-c885-5e2a07b79834",
        "type": "page",
        "pageId": "7c6833ec-823e-481f-9d78-06a2b6d4e1d2"
+      },
+      {
+       "id": "0a71ac32-c61c-da5c-e1b3-0ee65e54e317",
+       "title": "Comments",
+       "pageId": "c6f92ebd-c6d8-f083-bc6f-1661b8343857",
+       "type": "page"
       }
      ]
     },
@@ -183,5 +189,5 @@
    ]
   }
  ],
- "name": "CS: Introduction in Python"
+ "name": "Chapter 1 - Fundamentals"
 }

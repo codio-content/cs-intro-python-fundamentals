@@ -65,6 +65,29 @@
    "learningObjectives": ""
   },
   {
+   "id": "c6f92ebd-c6d8-f083-bc6f-1661b8343857",
+   "title": "Comments",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/fundamentals/comments.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Comments-c6f9.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
    "id": "9835cc34-258f-8c25-655f-2298b5ceb092",
    "title": "Formative Assessment 1",
    "files": [

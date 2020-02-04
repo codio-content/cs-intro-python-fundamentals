@@ -998,7 +998,7 @@
    "learningObjectives": "SWBAT remove the newline character from print"
   }
  },
-   {
+ {
   "type": "multiple-choice",
   "taskId": "multiple-choice-1940684776",
   "source": {
@@ -1025,7 +1025,7 @@
     {
      "_id": "d63202cf-da3c-ff1b-c466-4ca9b8e25c14",
      "correct": false,
-     "answer": "'print(\"Hi!\")"
+     "answer": "`print(\"Hi!\")`"
     }
    ],
    "guidance": "By default, the `print` statement will add a newline character. To remove it, add `end=''` or `end=\"\"` to the print statement. The solution is `print(\"Hi!\", end='')`.",
@@ -1059,7 +1059,7 @@
    "learningObjectives": "SWBAT remove newline character from the print statement"
   }
  },
-  {
+ {
   "type": "multiple-choice",
   "taskId": "multiple-choice-3042873713",
   "source": {
@@ -1085,11 +1085,11 @@
     },
     {
      "_id": "a53ec453-8cf5-c1e3-488a-99ece062a5dc",
-     "correct": true,
+     "correct": false,
      "answer": "020000"
     }
    ],
-   "guidance": "The correct answers are `20000` and 020000`. Commas are not used with larger numbers. Leading zeros do not affect Python's ability to work with integers. However, leading zeros can be confusing to programmers so they should be avoided. Quotation marks around an integer mean that the data type is a string.",
+   "guidance": "The correct answer is `20000`. Commas are not used with larger numbers. Leading zeros In Python, integers do not have leading zeros. Quotation marks around an integer mean that the data type is a string.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -1128,7 +1128,7 @@
    "learningObjectives": "SWBAT Identify an integer"
   }
  },
-  {
+ {
   "type": "multiple-choice",
   "taskId": "multiple-choice-976098584",
   "source": {
