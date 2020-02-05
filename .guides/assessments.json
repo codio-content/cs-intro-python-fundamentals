@@ -1574,5 +1574,65 @@
    "bloomsObjectiveLevel": "3",
    "learningObjectives": "SWBAT remove newline character from a print statement"
   }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3477411732",
+  "source": {
+   "name": "reading question comments",
+   "showName": false,
+   "instructions": "## Reading Question\n\nFill in the blanks below about comments in Python.",
+   "text": "In Python, the `#` symbol means a <<<single-line>>> comment, and the `'''` symbol means a <<<multi-line>>> comment.",
+   "guidance": "In Python, the `#` symbol is used for a single-line comment. The comment begins at the `#` and goes on until the end of the line. The `'''` symbol is used for multi-line comments. You must begin and end the comment with a `'''`. Everything between the triple quotes will be considered the comment.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     },
+     {
+      "name": "Content",
+      "value": "Printing"
+     },
+     {
+      "name": "Programming Language",
+      "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Comments"
+     }
+    ],
+    "files": [
+     "code/fundamentals/comments.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/fundamentals/comments.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "2",
+   "learningObjectives": "SWBAT define the two ways comments are done in Python",
+   "tokens": {
+    "blank": [
+     "single-line",
+     "multi-line"
+    ],
+    "text": [
+     "In Python, the `#` symbol means a ",
+     0,
+     " comment, and the `'''` symbol means a ",
+     0,
+     " comment."
+    ]
+   }
+  }
  }
 ]
