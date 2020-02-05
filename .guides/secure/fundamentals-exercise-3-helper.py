@@ -10,7 +10,7 @@ def check_variable(file):
   correct_var = False
   with open(file, "r") as code_to_check:
     for line in code_to_check.readlines():
-      if line.find("my_string") != -1:
+      if "my_string" in line and "=" in line and "#" not in line and "'''" not in line and '"""' not in line:
         correct_var = True
   return correct_var
 
@@ -25,13 +25,13 @@ def print_var(file):
   print_variable = False
   with open(file, "r") as code_to_check:
     for line in code_to_check.readlines():
-      if "print(my_string)" in line:
+      if "print" in line and "my_string" in line and "#" not in line and "'''" not in line and '"""' not in line:
         print_variable = True
   return print_variable
   
 if not check_variable(student_code):
   print("<h2>Test did not pass</h2>")
-  print("Program did not use the variable 'my_string'.")
+  print("Program did not declare the variable 'my_string'.")
   
 if not check_output(student_code):
   print("<h2>Test did not pass</h2>")
