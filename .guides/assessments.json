@@ -1065,7 +1065,7 @@
   "source": {
    "name": "reading question integers",
    "showName": false,
-   "instructions": "## Reading Question\n\nSelect all of the properly formatted integers from the list below. **Note**, there is more than one right answer.",
+   "instructions": "## Reading Question\n\nSelect all of the properly formatted integers from the list below. ",
    "multipleResponse": true,
    "answers": [
     {
@@ -1089,7 +1089,7 @@
      "answer": "020000"
     }
    ],
-   "guidance": "The correct answer is `20000`. Commas are not used with larger numbers. Leading zeros In Python, integers do not have leading zeros. Quotation marks around an integer mean that the data type is a string.",
+   "guidance": "The correct answer is `20000`. Commas are not used with larger numbers. Quotation marks around an integer mean that the data type is a string. In Python, integers in a base-10 number system do not have leading zeros. Leading zeros are acceptable in binary (base-2), octal (base-8), and hexadecimal (base-16) number systems.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
