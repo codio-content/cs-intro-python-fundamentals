@@ -1,7 +1,7 @@
 ----------
 
 ## Newline Character
-The `print` command automatically adds a newline character each time you use it. This is the default behavior. The code below will not print the two words on the same line.
+The `print` command automatically adds a newline character each time you use it. This is the default behavior. The code below will not print the two words on the same line. Enter the code below (or copy/paste the code) and click the `TRY IT` button.
 
 ```python
 print("Hello")

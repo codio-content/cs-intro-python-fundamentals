@@ -26,7 +26,7 @@ def has_end(file):
   end_command = False
   with open(file, "r") as code_to_check:
     for line in code_to_check.readlines():
-      if "end=" in line:
+      if "end=" in line or "end = " in line or "end= " in line or "end =" in line:
         end_command = True
     
   return end_command

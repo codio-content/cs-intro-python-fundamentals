@@ -1,7 +1,7 @@
 ----------
 
 ## Printing to the console
-As you learn Python, you will write code in the text editor to the left. Use a `print` command to see the output of your program. Enter the code below and click the `TRY IT` button.
+As you learn Python, you will write code in the text editor to the left. Use a `print` command to see the output of your program. Enter the code below (or copy/paste the code) and click the `TRY IT` button.
 
 ```python
 print("Hello world")
