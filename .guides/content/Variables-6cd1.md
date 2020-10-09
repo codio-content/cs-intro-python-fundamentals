@@ -30,6 +30,9 @@ Here are the rules for declaring a variable.
 |Cannot use a Python keyword|`my_class`|`class`|
 |Variables are case sensitive|`variable`, `Variable`, and `VARIABLE` are all different variables|
 
-<details><summary><b>What are the Python key words?</b></summary><table><tr><th></th><th></th><th></th><th></th></tr><tr><td>and</td><td>as</td><td>assert</td><td>break</td></tr><tr><td>class</td><td>continue</td><td>def</td><td>del</td></tr><tr><td>elif</td><td>else</td><td>except</td><td>FALSE</td></tr><tr><td>finally</td><td>for</td><td>from</td><td>global</td></tr><tr><td>if</td><td>import</td><td>in</td><td>is</td></tr><tr><td>lamda</td><td>None</td><td>nonlocal</td><td>nont</td></tr><tr><td>or</td><td>pass</td><td>raise</td><td>return</td></tr><tr><td>TRUE</td><td>try</td><td>while</td><td>with</td></tr><tr><td>yield</td></tr></table></details>
+<details>
+  <summary><b>What are the Python key words?</b></summary>
+  <table><tr><th></th><th></th><th></th><th></th></tr><tr><td>and</td><td>as</td><td>assert</td><td>break</td></tr><tr><td>class</td><td>continue</td><td>def</td><td>del</td></tr><tr><td>elif</td><td>else</td><td>except</td><td>FALSE</td></tr><tr><td>finally</td><td>for</td><td>from</td><td>global</td></tr><tr><td>if</td><td>import</td><td>in</td><td>is</td></tr><tr><td>lamda</td><td>None</td><td>nonlocal</td><td>nont</td></tr><tr><td>or</td><td>pass</td><td>raise</td><td>return</td></tr><tr><td>TRUE</td><td>try</td><td>while</td><td>with</td></tr><tr><td>yield</td></tr></table>
+</details>
 
 {Check It!|assessment}(multiple-choice-928839981)
