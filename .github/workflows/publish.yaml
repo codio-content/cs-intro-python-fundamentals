@@ -1,0 +1,38 @@
+name: codio-publish
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Log into Codio
+        id: codio-login
+        uses: codio/codio-auth-action@master
+        with:
+          client-id: ${{ secrets.PYTHON_FUNDAMENTALS_CLIENT_ID }}
+          secret-id: ${{ secrets.PYTHON_FUNDAMENTALS_SECRET_ID }}
+          domain: codio.com
+
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: Cleanup
+        run: rm -rf .github README.md
+
+      - name: Install Zip
+        uses: montudor/action-zip@v0.1.1
+
+      - name: Zip
+        run: zip -qq -r ../data.zip .
+
+      - name: Publish to Codio
+        uses: codio/codio-book-publish-action@master
+        with:
+          token: ${{ steps.codio-login.outputs.token }}
+          book-id: 5e39801c5e6c0364d4e1149b
+          domain: codio.com
+          zip: ../data.zip
+          changelog: ${{ github.event.head_commit.message }}
