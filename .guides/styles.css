@@ -1519,20 +1519,3 @@ mark {
   font-family: 'Nunito Sans';
 }
 
-.recursion {
-  background-image: url(".guides/images/factorial.png");
-  height: 380px;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.recursion:hover {
-  background-image: url(".guides/images/factorial2.png");
-}
-
-.recursion-video {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  height: 380px;
-}
