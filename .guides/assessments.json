@@ -1067,11 +1067,12 @@
    "showName": false,
    "instructions": "## Reading Question\n\nSelect all of the properly formatted integers from the list below. ",
    "multipleResponse": true,
+   "isRandomized": false,
    "answers": [
     {
      "_id": "7f62604f-2694-a6d7-7483-06f613c6d9b3",
      "correct": false,
-     "answer": "\"20000\""
+     "answer": "'20000'"
     },
     {
      "_id": "c3a1b475-5d9a-ba1a-b566-d441647192da",
@@ -1094,6 +1095,7 @@
    "showExpectedAnswer": true,
    "points": 1,
    "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
    "metadata": {
     "tags": [
      {
