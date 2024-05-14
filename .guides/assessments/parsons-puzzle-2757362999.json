@@ -1,0 +1,51 @@
+{
+	"source": {
+		"name": "declaring and overwriting variables",
+		"showName": false,
+		"instructions": "**From the collection of code blocks, drag out **two** such that the first block declares the variable `my_variable` and assigns it the value of `\"red\"` and the second code block overwrites this with `\"blue\"`.**",
+		"initial": "my_variable = &quot;red&quot;\nmy_variable = &quot;blue&quot;\nvar my_variable = &quot;red&quot; #distractor\nmy_variable = red #distractor\nvar my_variable = &quot;blue&quot; #distractor\nmy_variable = blue #distractor",
+		"options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":false,\"x_indent\":50,\"lang\":\"en\",\"show_feedback\":true,\"trashId\":\"sortableTrash\"}",
+		"grader": "1",
+		"guidance": "Since you have to declare the variable with the value `\"red\"`, this line of code must come first. The second line will assign the value `\"blue\"` to the variable.\n\nPython does not use the `var` keyword to declare variables.\n\n```python\nmy_variable = \"red\"\nmy_variable = \"blue\"\n```",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"points": 1,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Parsons Puzzle"
+				},
+				{
+					"name": "Content",
+					"value": "Variables"
+				},
+				{
+					"name": "Programming Language",
+					"value": "Python"
+				},
+				{
+					"name": "Category",
+					"value": "Declare and overwrite values"
+				}
+			],
+			"files": [
+				"code/fundamentals/playground-assign-value.py",
+				"code/playground-assign-value.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "code/fundamentals/playground-assign-value.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "3",
+		"learningObjectives": "SWBAT understand the difference between declaring a variable and overwriting its value"
+	},
+	"taskId": "parsons-puzzle-2757362999",
+	"type": "parsons-puzzle"
+}

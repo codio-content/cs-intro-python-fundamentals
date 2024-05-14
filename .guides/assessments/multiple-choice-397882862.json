@@ -1,0 +1,75 @@
+{
+	"source": {
+		"name": "boolean reading question",
+		"showName": false,
+		"instructions": "**What is the rule regarding boolean values in Python?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "2a14a4dd-e0a9-583a-7863-c0e4c545a482",
+				"correct": false,
+				"answer": "Boolean values are case sensitive and must be lowercase. "
+			},
+			{
+				"_id": "223f2866-8e5d-a1ae-1313-f28924cb7da4",
+				"correct": false,
+				"answer": "Boolean values are not case sensitive and can be either uppercase or lowercase."
+			},
+			{
+				"_id": "5032ef8c-2720-52c3-24fe-13242794a627",
+				"correct": true,
+				"answer": "Boolean values are case sensitive and must be uppercase. "
+			},
+			{
+				"_id": "e91a8a64-a81f-ec1b-61ff-85a3e9a7a276",
+				"correct": false,
+				"answer": "Boolean values are case sensitive and must be all caps."
+			}
+		],
+		"guidance": "Boolean values in Python are case sensitive. They must start with a capital letter.\n`True` and `False`",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 1,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				},
+				{
+					"name": "Content",
+					"value": "Boolean"
+				},
+				{
+					"name": "Programming Language",
+					"value": "Python"
+				},
+				{
+					"name": "Category",
+					"value": "Capitalization"
+				}
+			],
+			"files": [
+				"code/fundamentals/playground-types-boolean.py",
+				"code/playground-types.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "code/fundamentals/playground-types-boolean.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "SWBAT properly capitalize boolean values"
+	},
+	"taskId": "multiple-choice-397882862",
+	"type": "multiple-choice"
+}

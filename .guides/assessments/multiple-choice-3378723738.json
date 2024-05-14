@@ -1,0 +1,65 @@
+{
+	"source": {
+		"name": "Python Data Types",
+		"showName": false,
+		"instructions": "**What are the four basic data types of Python?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "23aedede-9c0e-a742-d588-877fd749727a",
+				"correct": true,
+				"answer": "strings, boolean, ints, and floats"
+			},
+			{
+				"_id": "6d566a80-d985-7ef4-7eec-af61579092a5",
+				"correct": false,
+				"answer": "strings, true/false, numbers, decimals"
+			},
+			{
+				"_id": "fcb187e2-6e33-2526-d969-e53194ba9fe3",
+				"correct": false,
+				"answer": "boolean, hexadecimal, ints, strings"
+			},
+			{
+				"_id": "788a6d19-7c1c-2c68-4928-59dd1c6c90c2",
+				"correct": false,
+				"answer": "numbers, images, audio, video"
+			}
+		],
+		"guidance": "The four basic data types that you have learned so far are:\n* strings - collections of letters, numbers, and symbols\n* boolean - true or false\n* ints - integers (no decimal)\n* floats - numbers with a decimal",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 1,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				},
+				{
+					"name": "Content",
+					"value": "Data Types"
+				},
+				{
+					"name": "Programming Language",
+					"value": "Python"
+				}
+			],
+			"files": [
+				"code/playground-types.py"
+			],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "SWBAT identify the four basic data types"
+	},
+	"taskId": "multiple-choice-3378723738",
+	"type": "multiple-choice"
+}

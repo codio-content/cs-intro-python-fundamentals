@@ -1,0 +1,22 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "code/fundamentals/playground-types-float.py",
+			"action": "open"
+		}
+	],
+	"id": "81a250ad-5294-443a-2a9e-4225dfb214ae",
+	"layout": "2-panels",
+	"learningObjectives": "",
+	"path": [],
+	"teacherOnly": false,
+	"title": "Data Types - Floating Point Numbers",
+	"type": "page"
+}

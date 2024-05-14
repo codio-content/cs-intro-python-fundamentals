@@ -1,0 +1,74 @@
+{
+	"source": {
+		"name": "reading question integers",
+		"showName": false,
+		"instructions": "**Select the properly formatted integer from the list below.**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "7f62604f-2694-a6d7-7483-06f613c6d9b3",
+				"correct": false,
+				"answer": "`'20000'`"
+			},
+			{
+				"_id": "c3a1b475-5d9a-ba1a-b566-d441647192da",
+				"correct": true,
+				"answer": "`20000`"
+			},
+			{
+				"_id": "6503f305-75a3-6d32-f42b-4331a982692f",
+				"correct": false,
+				"answer": "`20,000`"
+			},
+			{
+				"_id": "a53ec453-8cf5-c1e3-488a-99ece062a5dc",
+				"correct": false,
+				"answer": "`020000`"
+			}
+		],
+		"guidance": "The correct answer is `20000`. Commas are not used with larger numbers. Quotation marks around an integer mean that the data type is a string. In Python, integers in a base-10 number system do not have leading zeros. Leading zeros are acceptable in binary (base-2), octal (base-8), and hexadecimal (base-16) number systems.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 1,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				},
+				{
+					"name": "Content",
+					"value": "Data Types"
+				},
+				{
+					"name": "Programming Language",
+					"value": "Python"
+				},
+				{
+					"name": "Category",
+					"value": "Integers"
+				}
+			],
+			"files": [
+				"code/fundamentals/playground-types-int.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "code/fundamentals/playground-types-int.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "SWBAT Identify an integer"
+	},
+	"taskId": "multiple-choice-3042873713",
+	"type": "multiple-choice"
+}

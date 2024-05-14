@@ -1,4 +1,4 @@
-----------
+---
 
 ## Floating Point numbers
 Floating point numbers (often called floats) are numbers with a decimal. They can be positive or negative.

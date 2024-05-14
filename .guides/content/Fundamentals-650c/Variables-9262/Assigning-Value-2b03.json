@@ -1,0 +1,22 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "code/fundamentals/playground-assign-value.py",
+			"action": "open"
+		}
+	],
+	"id": "2b035abf-8a14-2e95-253e-2e0fb231560e",
+	"layout": "2-panels",
+	"learningObjectives": "",
+	"path": [],
+	"teacherOnly": false,
+	"title": "Assigning Value",
+	"type": "page"
+}

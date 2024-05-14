@@ -1,0 +1,22 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "code/fundamentals/playground-types-int.py",
+			"action": "open"
+		}
+	],
+	"id": "f02abf30-9312-4598-e298-3cad45b87842",
+	"layout": "2-panels",
+	"learningObjectives": "",
+	"path": [],
+	"teacherOnly": false,
+	"title": "Data Types - Integers",
+	"type": "page"
+}

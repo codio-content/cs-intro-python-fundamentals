@@ -1,4 +1,4 @@
-----------
+---
 
 ## Boolean
 Boolean values mean `True` or `False`. You will see how boolean values are used when we talk about conditionals and while loops.

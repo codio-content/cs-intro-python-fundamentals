@@ -1,0 +1,64 @@
+{
+	"source": {
+		"name": "string reading question",
+		"showName": false,
+		"instructions": "**Complete the line of code below so that variable declaration is correct.**",
+		"showValues": true,
+		"text": "```python-hide-clipboard\nmy_string = \"This is a string<<<\">>>\n```",
+		"distractors": "'\n'''",
+		"guidance": "Since the beginning of the string starts with a double-quotation mark, you need to end the string with a double-quotation mark.\n\n`my_string = \"This is a string\"`",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 1,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				},
+				{
+					"name": "Content",
+					"value": "Strings"
+				},
+				{
+					"name": "Programming Language",
+					"value": "Python"
+				},
+				{
+					"name": "Category",
+					"value": "Using appropriate quotation mark (\" or ')"
+				}
+			],
+			"files": [
+				"code/fundamentals/playground-types-string.py",
+				"code/playground-types.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "code/fundamentals/playground-types-string.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "3",
+		"learningObjectives": "SWBAT recognize the need to be consistent with the type of quotation mark used",
+		"tokens": {
+			"blank": [
+				"\""
+			],
+			"text": [
+				"```python-hide-clipboard\nmy_string = \"This is a string",
+				0,
+				"\n```"
+			],
+			"regexPositions": []
+		}
+	},
+	"taskId": "fill-in-the-blanks-3755866164",
+	"type": "fill-in-the-blanks"
+}

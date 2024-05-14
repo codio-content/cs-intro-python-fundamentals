@@ -1,0 +1,18 @@
+{
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideBackToDashboard": false,
+	"hideMenu": true,
+	"hideSectionsToggle": false,
+	"lexikonTopic": "CyberSecurity",
+	"order": [
+		"Fundamentals-650c"
+	],
+	"protectLayout": false,
+	"scripts": [],
+	"suppressPageNumbering": true,
+	"theme": "light",
+	"title": "Chapter 1 - Basic Skills",
+	"useMarkAsComplete": true,
+	"useSubmitButtons": true
+}

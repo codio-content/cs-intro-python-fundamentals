@@ -1,0 +1,22 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "code/fundamentals/playground-types-boolean.py",
+			"action": "open"
+		}
+	],
+	"id": "4dc575c5-9526-7f80-ea8d-81870cef8e8d",
+	"layout": "2-panels",
+	"learningObjectives": "",
+	"path": [],
+	"teacherOnly": false,
+	"title": "Data Types - Boolean",
+	"type": "page"
+}

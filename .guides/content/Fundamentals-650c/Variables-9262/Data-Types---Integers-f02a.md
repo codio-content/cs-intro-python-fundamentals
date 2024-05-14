@@ -1,9 +1,12 @@
-----------
+---
 
 ## Integers
 Integers (often called ints) are whole numbers. They can be positive or negative. Do not use a comma when typing large numbers
 
-<details><summary><b>5 vs. "5"</b></summary>`5` is not the same thing as `"5"`. The first one is an integer, the second is a string. You will see in a later lesson the different operations you can perform on strings and numbers. Treating a string as a number can cause errors.
+<details>
+  <summary><b>5 vs. '5'</b></summary>
+  <code>5</code> is not the same thing as <code>'5'</code>. The first one is an integer, the second is a string. You will see in a later lesson the different operations you can perform on strings and numbers. Treating a string as a number can cause errors.
+</details>
   
 ```python
 integer_variable = 50

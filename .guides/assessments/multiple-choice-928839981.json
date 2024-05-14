@@ -1,0 +1,65 @@
+{
+	"source": {
+		"name": "case sensitive variables",
+		"showName": false,
+		"instructions": "**True or False: the two names refer to the same variable.**\n```python-hide-clipboard\nMy_Variable\nmy_variable\n```",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "10c3413a-b154-12da-35f4-8ed296ebf23b",
+				"correct": false,
+				"answer": "True"
+			},
+			{
+				"_id": "2c6ce430-cd1c-3a03-7cdd-cb10b9c0a23e",
+				"correct": true,
+				"answer": "False"
+			}
+		],
+		"guidance": "False. Python is a case sensitive language. That means variable names with capital letters are different those with lowercase letters.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 1,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				},
+				{
+					"name": "Content",
+					"value": "Variable names"
+				},
+				{
+					"name": "Programming Language",
+					"value": "Python"
+				},
+				{
+					"name": "Category",
+					"value": "Case sensitive"
+				}
+			],
+			"files": [
+				"code/fundamentals/playground-variables1.py",
+				"code/playground-variables1.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "code/fundamentals/playground-variables1.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "SWBAT recognize the case sensitive nature of variable names"
+	},
+	"taskId": "multiple-choice-928839981",
+	"type": "multiple-choice"
+}

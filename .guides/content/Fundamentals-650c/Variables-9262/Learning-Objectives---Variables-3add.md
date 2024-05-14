@@ -1,4 +1,4 @@
-----------
+---
 
 * ### Define the rules when naming a variable
 * ### Assign a value to a variable

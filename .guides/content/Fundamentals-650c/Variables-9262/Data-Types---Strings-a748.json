@@ -1,0 +1,22 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "code/fundamentals/playground-types-string.py",
+			"action": "open"
+		}
+	],
+	"id": "a7480859-52a6-e4dd-68ca-1175e1b80712",
+	"layout": "2-panels",
+	"learningObjectives": "",
+	"path": [],
+	"teacherOnly": false,
+	"title": "Data Types - Strings",
+	"type": "page"
+}

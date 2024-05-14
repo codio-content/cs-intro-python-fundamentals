@@ -1,0 +1,63 @@
+{
+	"source": {
+		"name": "Python Variables",
+		"showName": false,
+		"instructions": "**Which of the following items is a correct variable name?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "86d55fed-5e50-dc95-0c39-457ed5470948",
+				"correct": false,
+				"answer": "`my-variable`"
+			},
+			{
+				"_id": "508b2e1b-57a8-14d4-43bd-4fc3bf7d3bb4",
+				"correct": true,
+				"answer": "`_my_variable`"
+			},
+			{
+				"_id": "b6f5b9aa-1eaa-a93a-7587-3db734c3a1e0",
+				"correct": false,
+				"answer": "`1_my_variable`"
+			},
+			{
+				"_id": "5b84c7bc-ffe0-98bb-5a35-e0665a15500a",
+				"correct": false,
+				"answer": "`my_variable!`"
+			}
+		],
+		"guidance": "Here are the basic rules for variable names:\n* Must start with an underscore or a letter\n* The rest of the variable can contain letters, numbers, or underscores\n* May not use a Python keyword",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 1,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				},
+				{
+					"name": "Content",
+					"value": "Variable"
+				},
+				{
+					"name": "Programming Language",
+					"value": "Python"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "SWBAT declare a valid variable"
+	},
+	"taskId": "multiple-choice-2419368717",
+	"type": "multiple-choice"
+}

@@ -1,0 +1,51 @@
+{
+	"source": {
+		"name": "float reading question",
+		"showName": false,
+		"instructions": "**From the lines of text below, drag ++two++ of them into answer space. Your answer should explain the difference between a float and an int.**",
+		"initial": "A float is a decimal number,\nwhile an int is a whole number.\nA float is a whole number, #distractor\nwhile an int is a decimal number. #distractor\nA float is an irrational number, #distractor\nwhile an int is a rational number. #distractor",
+		"options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":false,\"x_indent\":50,\"lang\":\"en\",\"show_feedback\":true,\"trashId\":\"sortableTrash\"}",
+		"grader": "1",
+		"guidance": "A floating point number is one with a decimal. An int is a whole number (or integer).",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"points": 1,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Parsons Puzzle"
+				},
+				{
+					"name": "Content",
+					"value": "Data Types"
+				},
+				{
+					"name": "Programming Language",
+					"value": "Python"
+				},
+				{
+					"name": "Category",
+					"value": "Difference between float and int"
+				}
+			],
+			"files": [
+				"code/fundamentals/playground-types-float.py",
+				"code/playground-types-float.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "code/fundamentals/playground-types-float.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "1",
+		"learningObjectives": "SWBAT describe the difference between a float and an int"
+	},
+	"taskId": "parsons-puzzle-744756114",
+	"type": "parsons-puzzle"
+}
